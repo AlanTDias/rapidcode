@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RapidCode | TI sob medida para empresas</title>
+<meta name="description" content="RapidCode: TI sob medida para empresas. Microsoft 365, nuvem, infraestrutura, backup, segurança, suporte, sistemas e IA aplicada.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="rain" aria-hidden="true"></canvas>
+
+<header class="header" id="header">
+  <div class="wrap header__in">
+    <a class="logo" href="index.html" aria-label="RapidCode - início">
+      <svg viewBox="0 0 190 40" width="170" height="36" role="img" aria-hidden="true">
+        <defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#7CFF5C"/></linearGradient></defs>
+        <rect x="1" y="3" width="34" height="34" rx="4" fill="none" stroke="url(#lg)" stroke-width="1.6"/>
+        <path d="M10 13l8 7-8 7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="square"/>
+        <path d="M21 28h9" stroke="#7CFF5C" stroke-width="2.6"/>
+        <text x="44" y="27" font-family="Space Grotesk, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Rapid<tspan fill="#7CFF5C">Code</tspan></text>
+      </svg>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="index.html" class="on" aria-current="page">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      <a class="btn btn--sm" href="contato.html">Diagnóstico gratuito</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="hero">
+    <div class="wrap hero__in">
+      <div class="hero__text">
+      <p class="tag mono">$ rapidcode --init</p>
+      <h1 class="hero__title"><span id="typed" data-text="TI que roda rápido, seguro e sem dor de cabeça."></span><span class="cursor" aria-hidden="true">_</span></h1>
+      <p class="hero__lead reveal">Microsoft 365, nuvem, infraestrutura, backup, segurança, suporte e sistemas sob medida. Um time só para cuidar da tecnologia da sua empresa.</p>
+      <div class="hero__cta reveal">
+        <a class="btn" href="contato.html">Pedir diagnóstico gratuito</a>
+        <a class="btn btn--ghost" href="servicos.html">Ver serviços</a>
+      </div>
+      <ul class="hero__meta mono reveal">
+        <li><span>&gt;</span> resposta em até 1 dia útil</li>
+        <li><span>&gt;</span> contrato com SLA por escrito</li>
+        <li><span>&gt;</span> código e senhas são seus</li>
+      </ul>
+      </div>
+      <figure class="hero__art"><img src="img/hero.svg" width="480" height="380" alt="Ilustração em linhas de uma nuvem conectada a um rack de servidores com LEDs piscando, uma janela de terminal com comandos concluídos e um escudo de segurança" fetchpriority="high"></figure>
+    </div>
+  </section>
+
+  <div class="marquee" aria-label="Tecnologias que usamos">
+    <div class="marquee__track" id="marquee"></div>
+  </div>
+
+  <section class="sec" id="servicos">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --servicos</p>
+      <h2 class="reveal">Tudo o que a TI da sua empresa precisa</h2>
+      <p class="sec__lead reveal">Nove frentes que se encaixam. Contrate uma ou todas.</p>
+      <div class="grid grid--3" id="servicosGrid"></div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="produtos">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --produtos</p>
+      <h2 class="reveal">Produtos próprios</h2>
+      <p class="sec__lead reveal">Ferramentas criadas pela RapidCode para o dia a dia das equipes.</p>
+      <div class="grid grid--2">
+        <article class="card reveal spot">
+          <img class="card__shot" src="img/mock-rapidhub.svg" width="480" height="300" loading="lazy" alt="Tela do RapidHub: menu lateral, mural de avisos com comunicados do RH e da TI, agenda do mês e aniversariantes da semana">
+          <span class="card__tag mono">intranet</span>
+          <h3>RapidHub</h3>
+          <p>Comunicados, documentos, políticas e atalhos para os sistemas da empresa em um só lugar, com acesso por perfil.</p>
+          <ul class="list"><li>Mural de avisos e aniversariantes</li><li>Biblioteca de documentos com versões</li><li>Login único com Microsoft 365</li></ul>
+          <a class="link mono" href="contato.html?assunto=Produto%3A%20RapidHub">saiba mais &rarr;</a>
+        </article>
+        <article class="card reveal spot">
+          <img class="card__shot" src="img/mock-rapiddesk.svg" width="480" height="300" loading="lazy" alt="Tela do RapidDesk: lista de chamados com status (aberto, em atendimento, aguardando, resolvido) e barras de SLA, mais o botão Novo chamado">
+          <span class="card__tag mono">chamados</span>
+          <h3>RapidDesk</h3>
+          <p>Abertura e acompanhamento de chamados de TI com prioridade, SLA e histórico, simples para quem pede e para quem atende.</p>
+          <ul class="list"><li>Abertura por portal, e-mail ou Teams</li><li>SLA por criticidade com alertas</li><li>Relatórios mensais para gestores</li></ul>
+          <a class="link mono" href="contato.html?assunto=Produto%3A%20RapidDesk">saiba mais &rarr;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="processo">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --processo</p>
+      <h2 class="reveal">Como trabalhamos</h2>
+      <p class="sec__lead reveal">Quatro etapas, sem surpresas no caminho.</p>
+      <ol class="timeline" id="timeline">
+        <span class="timeline__line"><i id="tlFill"></i></span>
+        <li class="reveal"><span class="step mono">01</span><div><h3>Diagnóstico gratuito</h3><p>Mapeamos seu ambiente, riscos e prioridades em uma conversa objetiva e sem compromisso.</p></div></li>
+        <li class="reveal"><span class="step mono">02</span><div><h3>Proposta</h3><p>Escopo, prazo e investimento claros, com opções para você decidir com segurança.</p></div></li>
+        <li class="reveal"><span class="step mono">03</span><div><h3>Execução</h3><p>Entregas em etapas curtas, janelas combinadas e documentação ao final de cada uma.</p></div></li>
+        <li class="reveal"><span class="step mono">04</span><div><h3>Operação</h3><p>Monitoramento, suporte e melhoria contínua com relatório mensal em linguagem de negócio.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="diferenciais">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --diferenciais</p>
+      <h2 class="reveal">Por que a RapidCode</h2>
+      <div class="grid grid--4">
+        <div class="card reveal spot"><h3>Prazo escrito</h3><p>SLA por criticidade em contrato, não em promessa.</p></div>
+        <div class="card reveal spot"><h3>Sem amarras</h3><p>Documentação, senhas e código-fonte entregues a você.</p></div>
+        <div class="card reveal spot"><h3>Backup testado</h3><p>Restauração provada com tempo medido, não só configurada.</p></div>
+        <div class="card reveal spot"><h3>Linguagem clara</h3><p>Relatórios que o gestor entende, sem jargão desnecessário.</p></div>
+      </div>
+      <figure class="figwide reveal"><img src="img/monitoramento.svg" width="800" height="240" loading="lazy" alt="Painel de monitoramento: diagrama de rede com nuvem, firewall, switch, servidor e notebooks, gráfico de disponibilidade de 99,9% e medidor de SLA"></figure>
+    </div>
+  </section>
+
+  <section class="sec" id="planos">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --planos-suporte</p>
+      <h2 class="reveal">Planos de suporte e outsourcing</h2>
+      <p class="sec__lead reveal">Dimensionados para o tamanho e a criticidade da sua operação.</p>
+      <div class="grid grid--3">
+        <article class="card plan reveal spot">
+          <h3>Basic</h3><p class="price mono">Sob consulta</p>
+          <ul class="list"><li>Atendimento remoto em horário comercial</li><li>Monitoramento básico</li><li>Relatório trimestral</li></ul>
+          <a class="btn btn--ghost" href="contato.html?assunto=Suporte%20e%20outsourcing%20de%20TI">Solicitar proposta</a>
+        </article>
+        <article class="card plan plan--hot reveal spot">
+          <span class="badge mono">recomendado</span>
+          <h3>Standard</h3><p class="price mono">Sob consulta</p>
+          <ul class="list"><li>Remoto e presencial agendado</li><li>SLA por criticidade</li><li>Manutenção preventiva</li><li>Relatório mensal</li></ul>
+          <a class="btn" href="contato.html?assunto=Suporte%20e%20outsourcing%20de%20TI">Solicitar proposta</a>
+        </article>
+        <article class="card plan reveal spot">
+          <h3>Premium</h3><p class="price mono">Sob consulta</p>
+          <ul class="list"><li>Plantão 24x7 para incidentes críticos</li><li>Gestor de conta dedicado</li><li>Revisão de risco e custo</li><li>Reuniões de acompanhamento</li></ul>
+          <a class="btn btn--ghost" href="contato.html?assunto=Suporte%20e%20outsourcing%20de%20TI">Solicitar proposta</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="numeros">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --resultados</p>
+      <h2 class="reveal">Números do ambiente</h2>
+      <!-- PLACEHOLDER: números e depoimentos abaixo são exemplos ilustrativos; substituir por dados reais autorizados. -->
+      <div class="stats">
+        <div class="stat reveal"><b data-count="120" data-suffix="+">0</b><span>empresas atendidas</span></div>
+        <div class="stat reveal"><b data-count="99.9" data-dec="1" data-suffix="%">0</b><span>disponibilidade média</span></div>
+        <div class="stat reveal"><b data-count="15" data-suffix=" min">0</b><span>tempo médio de 1ª resposta</span></div>
+        <div class="stat reveal"><b data-count="8" data-suffix=" anos">0</b><span>de estrada em TI</span></div>
+      </div>
+      <div class="grid grid--3 quotes">
+        <blockquote class="card reveal spot">“Migramos para o Microsoft 365 em um fim de semana e na segunda ninguém percebeu.”<cite class="mono">— Ana P., diretora administrativa</cite></blockquote>
+        <blockquote class="card reveal spot">“O primeiro teste de restauração foi o que me convenceu a contratar o backup.”<cite class="mono">— Carlos M., sócio de escritório contábil</cite></blockquote>
+        <blockquote class="card reveal spot">“Os relatórios mensais finalmente falam a língua de quem decide.”<cite class="mono">— Marina S., gerente financeira</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contato">
+    <img class="cta__bg" src="img/cta-bg.svg" alt="" aria-hidden="true" loading="lazy" width="1200" height="400">
+    <div class="wrap cta__in reveal">
+      <p class="tag mono">$ rapidcode --diagnostico --gratis</p>
+      <h2>Vamos olhar a TI da sua empresa?</h2>
+      <p>Em uma conversa de 30 minutos mostramos onde estão os riscos e as oportunidades. Sem custo e sem compromisso.</p>
+      <a class="btn btn--lg" href="contato.html">Pedir diagnóstico gratuito</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div>
+      <strong class="footer__logo">Rapid<span>Code</span></strong>
+      <p>TI sob medida para empresas que não podem parar.</p>
+    </div>
+    <div class="mono footer__col"><b>$ ls servicos</b><a href="servicos.html#microsoft-365">Microsoft 365</a><a href="servicos.html#servidores-nuvem">Nuvem e infraestrutura</a><a href="servicos.html#seguranca">Segurança e backup</a></div>
+    <div class="mono footer__col"><b>$ ls empresa</b><a href="sobre.html">Sobre</a><a href="servicos.html">Serviços</a><a href="contato.html">Contato</a></div>
+  </div>
+  <p class="footer__copy mono">&copy; 2026 RapidCode. Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

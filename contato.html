@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contato | RapidCode</title>
+<meta name="description" content="Peça um diagnóstico gratuito de TI com a RapidCode.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="rain" aria-hidden="true"></canvas>
+
+<header class="header" id="header">
+  <div class="wrap header__in">
+    <a class="logo" href="index.html" aria-label="RapidCode - início">
+      <svg viewBox="0 0 190 40" width="170" height="36" role="img" aria-hidden="true">
+        <defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#7CFF5C"/></linearGradient></defs>
+        <rect x="1" y="3" width="34" height="34" rx="4" fill="none" stroke="url(#lg)" stroke-width="1.6"/>
+        <path d="M10 13l8 7-8 7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="square"/>
+        <path d="M21 28h9" stroke="#7CFF5C" stroke-width="2.6"/>
+        <text x="44" y="27" font-family="Space Grotesk, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Rapid<tspan fill="#7CFF5C">Code</tspan></text>
+      </svg>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html" class="on" aria-current="page">Contato</a>
+      <a class="btn btn--sm" href="contato.html">Diagnóstico gratuito</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="hero hero--page">
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <p class="tag mono">$ rapidcode --contato</p>
+        <h1 class="hero__title">Pedir diagnóstico gratuito<span class="cursor" aria-hidden="true">_</span></h1>
+        <p class="hero__lead">Preencha o formulário e retornamos em até um dia útil.</p>
+      </div>
+      <figure class="hero__art"><img src="img/contato.svg" width="480" height="380" alt="Ilustração em linhas de um envelope aberto com um balão de conversa digitando e sinais de conexão" fetchpriority="high"></figure>
+    </div>
+  </section>
+
+  <section class="sec sec--tight">
+    <div class="wrap contact">
+      <form id="formContato" class="card card--static form reveal">
+        <div class="two">
+          <label>$ nome<input name="nome" required autocomplete="name"></label>
+          <label>$ empresa<input name="empresa" autocomplete="organization"></label>
+        </div>
+        <div class="two">
+          <label>$ e-mail<input type="email" name="email" required autocomplete="email"></label>
+          <label>$ telefone<input type="tel" name="tel" autocomplete="tel"></label>
+        </div>
+        <label>$ assunto<select id="assunto" name="assunto" required></select></label>
+        <label>$ mensagem<textarea name="msg" rows="5"></textarea></label>
+        <button class="btn" type="submit">Enviar mensagem</button>
+        <div class="ok" id="ok" role="status">Abrimos seu aplicativo de e-mail com a mensagem pronta — é só enviar.</div>
+      </form>
+      <aside class="card card--static spot reveal">
+        <p class="tag mono">$ rapidcode --fale-agora</p>
+        <h3>Fale agora</h3>
+        <!-- PLACEHOLDER: telefone, e-mail, cidade e número do WhatsApp abaixo são fictícios; substituir pelos reais. -->
+        <p class="cinfo"><span><b>tel</b>(00) 00000-0000</span><span><b>mail</b>contato@rapidcode.com.br</span><span><b>loc</b>Cidade, UF</span></p>
+        <a class="btn" id="zap" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20pedir%20um%20diagn%C3%B3stico%20gratuito." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div>
+      <strong class="footer__logo">Rapid<span>Code</span></strong>
+      <p>TI sob medida para empresas que não podem parar.</p>
+    </div>
+    <div class="mono footer__col"><b>$ ls servicos</b><a href="servicos.html#microsoft-365">Microsoft 365</a><a href="servicos.html#servidores-nuvem">Nuvem e infraestrutura</a><a href="servicos.html#seguranca">Segurança e backup</a></div>
+    <div class="mono footer__col"><b>$ ls empresa</b><a href="sobre.html">Sobre</a><a href="servicos.html">Serviços</a><a href="contato.html">Contato</a></div>
+  </div>
+  <p class="footer__copy mono">&copy; 2026 RapidCode. Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

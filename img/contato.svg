@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" fill="none"><style>.w{fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.f{fill:#39FF14;filter:url(#o)}.d{stroke-dasharray:4 7;animation:fl 1.8s linear infinite}@keyframes fl{to{stroke-dashoffset:-22}}.b1{animation:bl 1.4s steps(1) infinite}.b2{animation:bl 1.4s steps(1) .25s infinite}.b3{animation:bl 1.4s steps(1) .5s infinite}@keyframes bl{50%{opacity:.15}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect class="w" x="60" y="150" width="270" height="170" rx="8"/>
+<path class="g" d="M60 160l135 95 135-95"/>
+<path class="w" d="M60 320l95-80M330 320l-95-80" opacity=".55"/>
+<rect class="w" x="230" y="40" width="190" height="100" rx="10"/>
+<path class="w" d="M262 140l-8 24 30-24"/>
+<circle class="f b1" cx="290" cy="90" r="6"/><circle class="f b2" cx="325" cy="90" r="6"/><circle class="f b3" cx="360" cy="90" r="6"/>
+<path class="g d" d="M330 230H400V170"/>
+<circle class="f" cx="400" cy="170" r="4"/>
+<path class="w" d="M370 260a40 40 0 0 1 56 0M352 242a66 66 0 0 1 92 0" opacity=".6"/>
+<circle class="f" cx="398" cy="280" r="4"/>
+<path class="w" d="M60 70h90M60 90h56" opacity=".5"/>
+</svg>

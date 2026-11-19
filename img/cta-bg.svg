@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none" preserveAspectRatio="xMidYMid slice"><style>.w{fill:none;stroke:#fff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;opacity:.35}.g{fill:none;stroke:#39FF14;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;opacity:.7}.f{fill:#39FF14;opacity:.8}.d{stroke-dasharray:4 8;animation:fl 3s linear infinite}@keyframes fl{to{stroke-dashoffset:-24}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<path class="w" d="M0 330l150-75 150 75-150 75zM300 330l150-75 150 75-150 75zM900 330l150-75 150 75-150 75z"/>
+<path class="w" d="M60 292V230l90-45 90 45v62M120 262V215"/>
+<path class="g d" d="M150 185V120H420V70H700"/><path class="g d" d="M1050 255V150H820V90H700"/>
+<circle class="f" cx="700" cy="70" r="4"/><circle class="f" cx="150" cy="185" r="4"/><circle class="f" cx="1050" cy="255" r="4"/>
+<rect class="w" x="940" y="40" width="160" height="80" rx="6"/><path class="w" d="M940 62h160M956 80h60M956 94h90"/>
+<path class="w" d="M60 40h70M60 56h40M1060 330h80M1080 346h60"/>
+</svg>

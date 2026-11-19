@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none"><style>.w{fill:none;stroke:#fff;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.f{fill:#39FF14}.t{font:10px monospace;fill:#fff}.tg{font:10px monospace;fill:#39FF14}.s{font:700 12px monospace;fill:#fff}.b{animation:bl 2s steps(1) infinite}@keyframes bl{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="4" y="4" width="472" height="292" rx="8" fill="#000" stroke="#fff" stroke-width="1.5"/>
+<path class="w" d="M4 30h472"/><circle class="f" cx="18" cy="17" r="3"/><circle cx="30" cy="17" r="3" fill="#fff" opacity=".6"/><circle cx="42" cy="17" r="3" fill="#fff" opacity=".6"/>
+<rect class="w" x="150" y="9" width="180" height="16" rx="8" opacity=".6"/><text class="t" x="180" y="21" opacity=".7">hub.empresa.com.br</text>
+<path class="w" d="M110 30V296"/>
+<text class="s" x="16" y="52">RapidHub</text>
+<g class="t"><text x="16" y="82" fill="#39FF14" style="fill:#39FF14">&gt; Início</text><text x="16" y="106" opacity=".8">&gt; Documentos</text><text x="16" y="130" opacity=".8">&gt; Políticas</text><text x="16" y="154" opacity=".8">&gt; Agenda</text><text x="16" y="178" opacity=".8">&gt; Sistemas</text></g>
+<text class="s" x="126" y="52">Mural de avisos</text>
+<rect class="g" x="126" y="62" width="200" height="58" rx="4"/><text class="tg" x="136" y="80">NOVO · RH</text><path class="w" d="M136 92h170M136 102h120" opacity=".6"/>
+<rect class="w" x="126" y="130" width="200" height="50" rx="4"/><text class="t" x="136" y="148" opacity=".7">TI · manutenção sábado</text><path class="w" d="M136 160h160M136 168h90" opacity=".45"/>
+<rect class="w" x="126" y="190" width="200" height="50" rx="4"/><text class="t" x="136" y="208" opacity=".7">Política de senhas v3</text><path class="w" d="M136 220h150M136 228h100" opacity=".45"/>
+<text class="s" x="344" y="52">Agenda</text>
+<rect class="w" x="344" y="62" width="120" height="104" rx="4"/>
+<g class="w" opacity=".5"><path d="M344 82h120M374 62v104M404 62v104M434 62v104M344 102h120M344 122h120M344 142h120"/></g>
+<rect class="f b" x="406" y="104" width="26" height="16" rx="2"/><rect x="346" y="84" width="26" height="16" rx="2" fill="#39FF14" opacity=".35"/>
+<rect class="w" x="344" y="178" width="120" height="30" rx="4"/><text class="tg" x="352" y="197">10h  Reunião geral</text>
+<rect class="w" x="344" y="216" width="120" height="30" rx="4"/><text class="t" x="352" y="235" opacity=".7">15h  Treinamento</text>
+<rect class="w" x="126" y="250" width="338" height="34" rx="4"/><text class="t" x="138" y="271" opacity=".7">Aniversariantes da semana: 3</text><circle class="f" cx="448" cy="267" r="4"/>
+</svg>

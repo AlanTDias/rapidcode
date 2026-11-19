@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" fill="none"><style>.w{fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.f{fill:#39FF14;filter:url(#o)}.d{stroke-dasharray:3 5;animation:fl 1.6s linear infinite}@keyframes fl{to{stroke-dashoffset:-16}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<ellipse class="w" cx="42" cy="22" rx="28" ry="8"/>
+<path class="w" d="M14 22v14c0 4.4 12.5 8 28 8s28-3.6 28-8V22M14 36v14c0 4.4 12.5 8 28 8s28-3.6 28-8V36M14 50v14c0 4.4 12.5 8 28 8s28-3.6 28-8V50"/>
+<path class="g d" d="M72 54H80"/>
+<rect class="g" x="82" y="48" width="28" height="22" rx="3"/>
+<path class="g" d="M88 48v-7a8 8 0 0 1 16 0v7"/>
+<circle class="f" cx="96" cy="58" r="2.6"/><path class="g" d="M96 60v5"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" fill="none"><style>.w{fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.f{fill:#39FF14;filter:url(#o)}.b{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:.1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect class="w" x="10" y="10" width="100" height="70" rx="5"/><path class="w" d="M10 24h100"/>
+<circle class="f" cx="19" cy="17" r="2"/><circle cx="26" cy="17" r="2" fill="#fff" opacity=".6"/><circle cx="33" cy="17" r="2" fill="#fff" opacity=".6"/>
+<path class="w" d="M44 14h56" opacity=".4"/>
+<path class="g" d="M42 40l-10 10 10 10M78 40l10 10-10 10M65 38l-10 24"/>
+<rect class="f b" x="92" y="64" width="6" height="2"/>
+</svg>

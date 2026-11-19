@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" fill="none">
+<style>.w{fill:none;stroke:#fff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.f{fill:#39FF14;filter:url(#o)}.d{stroke-dasharray:4 7;animation:fl 1.5s linear infinite}.d2{animation-duration:2.2s}@keyframes fl{to{stroke-dashoffset:-22}}.b{animation:bl 1.8s steps(1) infinite}.b2{animation-delay:.6s}.b3{animation-delay:1.1s}@keyframes bl{50%{opacity:.2}}.t{font:11px monospace;fill:#fff}.tg{font:11px monospace;fill:#39FF14}.cur{animation:bl 1s steps(1) infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<!-- nuvem -->
+<path class="g" d="M180 112C150 112 150 70 186 70C188 36 244 32 254 66C296 62 308 112 270 112Z"/>
+<path class="w" d="M205 92h50M215 100h30" opacity=".6"/>
+<!-- fluxos nuvem -> rack -->
+<path class="g d" d="M205 114V170"/><path class="g d d2" d="M225 114V170"/><path class="g d" d="M245 114V170"/>
+<!-- rack -->
+<rect class="w" x="160" y="170" width="150" height="190" rx="6"/>
+<g class="w">
+<rect x="172" y="182" width="126" height="34" rx="3"/><rect x="172" y="224" width="126" height="34" rx="3"/><rect x="172" y="266" width="126" height="34" rx="3"/><rect x="172" y="308" width="126" height="34" rx="3"/>
+<path d="M214 192h72M214 199h72M214 206h50M214 234h72M214 241h72M214 248h40M214 276h72M214 283h72M214 290h56M214 318h72M214 325h72M214 332h30" opacity=".55"/>
+</g>
+<circle class="f b" cx="186" cy="199" r="3.5"/><circle class="f b b2" cx="198" cy="199" r="3.5"/>
+<circle class="f b b2" cx="186" cy="241" r="3.5"/><circle class="f b b3" cx="198" cy="241" r="3.5"/>
+<circle class="f b b3" cx="186" cy="283" r="3.5"/><circle class="f b" cx="198" cy="283" r="3.5"/>
+<circle class="f b" cx="186" cy="325" r="3.5"/><circle class="f b b2" cx="198" cy="325" r="3.5"/>
+<path class="w" d="M172 360v10M298 360v10"/>
+<!-- terminal -->
+<rect x="14" y="214" width="170" height="118" rx="6" fill="#000" stroke="#fff" stroke-width="1.6"/>
+<path class="w" d="M14 236h170"/>
+<circle cx="28" cy="225" r="3" fill="#39FF14"/><circle cx="40" cy="225" r="3" fill="#fff" opacity=".6"/><circle cx="52" cy="225" r="3" fill="#fff" opacity=".6"/>
+<text class="tg" x="24" y="256">$ rapidcode deploy</text>
+<text class="t" x="24" y="274" opacity=".75">&gt; backup ......... ok</text>
+<text class="t" x="24" y="290" opacity=".75">&gt; firewall ....... ok</text>
+<text class="t" x="24" y="306" opacity=".75">&gt; m365 ........... ok</text>
+<text class="tg" x="24" y="322">$ <tspan class="cur">_</tspan></text>
+<!-- fluxo rack -> terminal -->
+<path class="g d d2" d="M160 270H186"/>
+<!-- escudo -->
+<path class="g" d="M388 190l44 14v34c0 28-20 46-44 56-24-10-44-28-44-56v-34z" transform="translate(0 -8)"/>
+<path class="w" d="M370 240l14 14 28-30" transform="translate(0 -8)"/>
+<path class="g d" d="M310 250H345" /><path class="g d d2" d="M388 112V150"/>
+<!-- wifi -->
+<path class="w" d="M360 86a40 40 0 0 1 56 0M372 100a24 24 0 0 1 32 0"/><circle class="f b" cx="388" cy="112" r="4"/>
+<!-- grade isometrica -->
+<path class="w" d="M330 350l58-30 58 30-58 30z" opacity=".35"/>
+<path class="w" d="M40 70h36M40 82h22M432 300h30M444 312h18" opacity=".4"/>
+</svg>

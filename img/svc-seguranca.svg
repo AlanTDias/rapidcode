@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" fill="none"><style>.w{fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.d{stroke-dasharray:3 5;animation:fl 1.6s linear infinite}@keyframes fl{to{stroke-dashoffset:-16}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<path class="g" d="M60 8L88 18V42C88 60 74 72 60 80C46 72 32 60 32 42V18Z"/>
+<path class="w" d="M47 42l9 9 18-20"/>
+<path class="w" d="M6 24h18M6 34h12M6 44h18M96 24h18M102 34h12M96 44h18" opacity=".6"/>
+<path class="g d" d="M6 66H30M90 66H114"/>
+</svg>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre | RapidCode</title>
+<meta name="description" content="Conheça a RapidCode: TI rápida, clara e sob o controle do cliente.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="rain" aria-hidden="true"></canvas>
+
+<header class="header" id="header">
+  <div class="wrap header__in">
+    <a class="logo" href="index.html" aria-label="RapidCode - início">
+      <svg viewBox="0 0 190 40" width="170" height="36" role="img" aria-hidden="true">
+        <defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#39FF14"/><stop offset="1" stop-color="#7CFF5C"/></linearGradient></defs>
+        <rect x="1" y="3" width="34" height="34" rx="4" fill="none" stroke="url(#lg)" stroke-width="1.6"/>
+        <path d="M10 13l8 7-8 7" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="square"/>
+        <path d="M21 28h9" stroke="#7CFF5C" stroke-width="2.6"/>
+        <text x="44" y="27" font-family="Space Grotesk, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Rapid<tspan fill="#7CFF5C">Code</tspan></text>
+      </svg>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html" class="on" aria-current="page">Sobre</a>
+      <a href="contato.html">Contato</a>
+      <a class="btn btn--sm" href="contato.html">Diagnóstico gratuito</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="hero hero--page">
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <p class="tag mono">$ rapidcode --sobre</p>
+        <h1 class="hero__title">Velocidade com método<span class="cursor" aria-hidden="true">_</span></h1>
+        <p class="hero__lead">A RapidCode nasceu da ideia de que TI boa é a que resolve rápido, explica sem jargão e não prende o cliente.</p>
+      </div>
+      <figure class="hero__art"><img src="img/sobre.svg" width="480" height="380" alt="Ilustração em linhas de uma janela de terminal com código, um documento de contrato com marca de verificação e uma chave de acesso ligados por linhas tracejadas" fetchpriority="high"></figure>
+    </div>
+  </section>
+
+  <section class="sec sec--tight">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --principios</p>
+      <h2 class="reveal">No que acreditamos</h2>
+      <div class="grid grid--3">
+        <div class="card reveal spot"><h3>Missão</h3><p>Tornar a tecnologia previsível para empresas que não têm um departamento de TI completo.</p></div>
+        <div class="card reveal spot"><h3>Como pensamos</h3><p>Pequenas entregas, documentação sempre atualizada e decisões registradas por escrito.</p></div>
+        <div class="card reveal spot"><h3>Transparência</h3><p>Senhas, contas e licenças ficam com o cliente. Se precisar sair, a saída é simples.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="processo">
+    <div class="wrap">
+      <p class="tag mono reveal">$ rapidcode --processo</p>
+      <h2 class="reveal">Como trabalhamos</h2>
+      <ol class="timeline" id="timeline">
+        <span class="timeline__line"><i id="tlFill"></i></span>
+        <li class="reveal"><span class="step mono">01</span><div><h3>Diagnóstico</h3><p>Gratuito e sem compromisso.</p></div></li>
+        <li class="reveal"><span class="step mono">02</span><div><h3>Proposta</h3><p>Escopo fechado por escrito.</p></div></li>
+        <li class="reveal"><span class="step mono">03</span><div><h3>Execução</h3><p>Entrega em ondas.</p></div></li>
+        <li class="reveal"><span class="step mono">04</span><div><h3>Operação</h3><p>Monitoramento e SLA.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="cta cta--short">
+    <img class="cta__bg" src="img/cta-bg.svg" alt="" aria-hidden="true" loading="lazy" width="1200" height="400">
+    <div class="wrap cta__in reveal">
+      <p class="tag mono">$ rapidcode --conversar</p>
+      <h2>Vamos conversar?</h2>
+      <p>Conte o seu cenário e voltamos com um caminho claro.</p>
+      <a class="btn btn--lg" href="contato.html">Pedir diagnóstico gratuito</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div>
+      <strong class="footer__logo">Rapid<span>Code</span></strong>
+      <p>TI sob medida para empresas que não podem parar.</p>
+    </div>
+    <div class="mono footer__col"><b>$ ls servicos</b><a href="servicos.html#microsoft-365">Microsoft 365</a><a href="servicos.html#servidores-nuvem">Nuvem e infraestrutura</a><a href="servicos.html#seguranca">Segurança e backup</a></div>
+    <div class="mono footer__col"><b>$ ls empresa</b><a href="sobre.html">Sobre</a><a href="servicos.html">Serviços</a><a href="contato.html">Contato</a></div>
+  </div>
+  <p class="footer__copy mono">&copy; 2026 RapidCode. Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" fill="none"><style>.w{fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.g{fill:none;stroke:#39FF14;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;filter:url(#o)}.f{fill:#39FF14;filter:url(#o)}.d{stroke-dasharray:4 7;animation:fl 1.8s linear infinite}@keyframes fl{to{stroke-dashoffset:-22}}.b{animation:bl 1.2s steps(1) infinite}@keyframes bl{50%{opacity:0}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><filter id="o" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect class="w" x="50" y="50" width="300" height="200" rx="8"/>
+<path class="w" d="M50 82h300"/>
+<circle class="f" cx="70" cy="66" r="4"/><circle class="w" cx="86" cy="66" r="4"/><circle class="w" cx="102" cy="66" r="4"/>
+<path class="g" d="M80 112l22 18-22 18"/>
+<path class="g b" d="M114 150h22"/>
+<path class="w" d="M150 112h120M150 132h80M80 178h180M80 198h140M80 218h100" opacity=".55"/>
+<rect class="g" x="260" y="190" width="170" height="120" rx="8"/>
+<path class="w" d="M282 220h60M282 242h96M282 264h70" opacity=".6"/>
+<path class="g" d="M384 214l8 8 16-18"/>
+<circle class="w" cx="92" cy="300" r="20"/>
+<path class="g" d="M108 300h60M150 300v14M164 300v10"/>
+<circle class="f" cx="92" cy="300" r="4"/>
+<path class="g d" d="M200 250V280H260"/>
+<path class="g d" d="M350 150H400V190"/>
+<circle class="f" cx="400" cy="150" r="4"/>
+<path class="w" d="M400 40v30M385 55h30" opacity=".5"/>
+</svg>
