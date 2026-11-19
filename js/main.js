@@ -33,7 +33,8 @@
 
   // Cards de serviços da home
   var grid = $('#servicosGrid');
-  if (grid) {
+  // (o HTML já vem pré-renderizado para SEO; o JS só preenche se estiver vazio)
+  if (grid && !grid.children.length) {
     grid.innerHTML = D.servicos.map(function (s, i) {
       return '<a class="card spot reveal" href="servicos.html#' + s.id + '"><img class="card__img" src="img/' + IMG[s.id] + '.svg" width="120" height="90" loading="lazy" alt="' + ALT[s.id] + '"><span class="card__ico mono">' + pad(i + 1) + ' / ' + s.id + '</span><h3>' + s.nome + '</h3><p>' + s.resumo + '</p></a>';
     }).join('');
@@ -48,7 +49,7 @@
 
   // Página de serviços: índice e seções detalhadas
   var idx = $('#svcIndex');
-  if (idx) {
+  if (idx && !idx.children.length) {
     idx.innerHTML = D.servicos.map(function (s) { return '<a href="#' + s.id + '">' + s.nome + '</a>'; }).join('');
   }
   function planos() {
@@ -56,13 +57,13 @@
       D.planos.map(function (p) {
         return '<div class="card plan card--static' + (p.pop ? ' plan--hot' : '') + '">' + (p.pop ? '<span class="badge mono">mais popular</span>' : '') +
           '<h3>' + p.nome + '</h3><p class="price mono">Sob consulta</p>' + lista(p.itens) +
-          '<a class="btn' + (p.pop ? '' : ' btn--ghost') + '" href="contato.html?assunto=' + encodeURIComponent('Suporte e outsourcing de TI') + '">Consultar</a></div>';
+          '<a class="btn' + (p.pop ? '' : ' btn--ghost') + '" href="contato.html?assunto=' + encodeURIComponent('Suporte e outsourcing de TI') + '">Consultar plano ' + p.nome + '</a></div>';
       }).join('') +
       '</div><p class="plans__more"><a class="btn btn--ghost" href="contato.html">Monte um plano sob medida</a></p></div>';
   }
   var det = $('#svcDetalhe');
   if (det) {
-    det.innerHTML = D.servicos.map(function (s, i) {
+    if (!det.children.length) det.innerHTML =D.servicos.map(function (s, i) {
       return '<article class="card spot reveal svc" id="' + s.id + '">' +
         '<div class="svc__head"><img src="img/' + IMG[s.id] + '.svg" width="150" height="113" loading="lazy" alt="' + ALT[s.id] + '">' +
         '<div><span class="card__ico mono">' + pad(i + 1) + ' / ' + s.id + '</span><h2>' + s.nome + '</h2><p class="svc__desc">' + s.desc + '</p></div></div>' +

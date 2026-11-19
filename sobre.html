@@ -3,14 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sobre | RapidCode</title>
-<meta name="description" content="Conheça a RapidCode: TI rápida, clara e sob o controle do cliente.">
+<title>Sobre a empresa de TI sem amarras | RapidCode</title>
+<meta name="description" content="Conheça a RapidCode, empresa de TI que resolve rápido, explica sem jargão e deixa senhas, contas e código sob o controle do cliente. Atendimento remoto.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.rapidcode.com.br/sobre.html">
 <meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RapidCode">
+<meta property="og:title" content="Sobre a empresa de TI sem amarras | RapidCode">
+<meta property="og:description" content="Conheça a RapidCode, empresa de TI que resolve rápido, explica sem jargão e deixa senhas, contas e código sob o controle do cliente. Atendimento remoto.">
+<meta property="og:url" content="https://www.rapidcode.com.br/sobre.html">
+<meta property="og:image" content="https://www.rapidcode.com.br/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RapidCode - Soluções em TI para empresas">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sobre a empresa de TI sem amarras | RapidCode">
+<meta name="twitter:description" content="Conheça a RapidCode, empresa de TI que resolve rápido, explica sem jargão e deixa senhas, contas e código sob o controle do cliente. Atendimento remoto.">
+<meta name="twitter:image" content="https://www.rapidcode.com.br/img/og-image.png">
 <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- SEO: definir cidade/região (areaServed e address no JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "name": "Sobre a RapidCode",
+      "url": "https://www.rapidcode.com.br/sobre.html",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.rapidcode.com.br/",
+        "name": "RapidCode"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://www.rapidcode.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sobre",
+          "item": "https://www.rapidcode.com.br/sobre.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <canvas id="rain" aria-hidden="true"></canvas>
@@ -42,7 +96,7 @@
     <div class="wrap hero__in">
       <div class="hero__text">
         <p class="tag mono">$ rapidcode --sobre</p>
-        <h1 class="hero__title">Velocidade com método<span class="cursor" aria-hidden="true">_</span></h1>
+        <h1 class="hero__title">Sobre a RapidCode: empresa de TI com velocidade e método<span class="cursor" aria-hidden="true">_</span></h1>
         <p class="hero__lead">A RapidCode nasceu da ideia de que TI boa é a que resolve rápido, explica sem jargão e não prende o cliente.</p>
       </div>
       <figure class="hero__art"><img src="img/sobre.svg" width="480" height="380" alt="Ilustração em linhas de uma janela de terminal com código, um documento de contrato com marca de verificação e uma chave de acesso ligados por linhas tracejadas" fetchpriority="high"></figure>
@@ -98,7 +152,7 @@
   <p class="footer__copy mono">&copy; 2026 RapidCode. Todos os direitos reservados.</p>
 </footer>
 
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+<script src="js/data.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

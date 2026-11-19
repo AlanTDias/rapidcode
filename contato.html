@@ -3,14 +3,76 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contato | RapidCode</title>
-<meta name="description" content="Peça um diagnóstico gratuito de TI com a RapidCode.">
+<title>Contato e diagnóstico gratuito de TI | RapidCode</title>
+<meta name="description" content="Peça um diagnóstico gratuito de TI para a sua empresa: suporte, Microsoft 365, backup e segurança. Retornamos em até um dia útil, com atendimento remoto.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.rapidcode.com.br/contato.html">
 <meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RapidCode">
+<meta property="og:title" content="Contato e diagnóstico gratuito de TI | RapidCode">
+<meta property="og:description" content="Peça um diagnóstico gratuito de TI para a sua empresa: suporte, Microsoft 365, backup e segurança. Retornamos em até um dia útil, com atendimento remoto.">
+<meta property="og:url" content="https://www.rapidcode.com.br/contato.html">
+<meta property="og:image" content="https://www.rapidcode.com.br/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RapidCode - Soluções em TI para empresas">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contato e diagnóstico gratuito de TI | RapidCode">
+<meta name="twitter:description" content="Peça um diagnóstico gratuito de TI para a sua empresa: suporte, Microsoft 365, backup e segurança. Retornamos em até um dia útil, com atendimento remoto.">
+<meta name="twitter:image" content="https://www.rapidcode.com.br/img/og-image.png">
 <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- SEO: definir cidade/região (areaServed e address no JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "name": "Contato RapidCode",
+      "url": "https://www.rapidcode.com.br/contato.html",
+      "inLanguage": "pt-BR",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "RapidCode",
+        "url": "https://www.rapidcode.com.br/",
+        "email": "contato@rapidcode.com.br",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "contato@rapidcode.com.br",
+          "areaServed": "BR",
+          "availableLanguage": "pt-BR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://www.rapidcode.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contato",
+          "item": "https://www.rapidcode.com.br/contato.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <canvas id="rain" aria-hidden="true"></canvas>
@@ -42,7 +104,7 @@
     <div class="wrap hero__in">
       <div class="hero__text">
         <p class="tag mono">$ rapidcode --contato</p>
-        <h1 class="hero__title">Pedir diagnóstico gratuito<span class="cursor" aria-hidden="true">_</span></h1>
+        <h1 class="hero__title">Contato: peça um diagnóstico gratuito de TI<span class="cursor" aria-hidden="true">_</span></h1>
         <p class="hero__lead">Preencha o formulário e retornamos em até um dia útil.</p>
       </div>
       <figure class="hero__art"><img src="img/contato.svg" width="480" height="380" alt="Ilustração em linhas de um envelope aberto com um balão de conversa digitando e sinais de conexão" fetchpriority="high"></figure>
@@ -67,7 +129,7 @@
       </form>
       <aside class="card card--static spot reveal">
         <p class="tag mono">$ rapidcode --fale-agora</p>
-        <h3>Fale agora</h3>
+        <h2 class="card__title">Fale agora</h2>
         <!-- PLACEHOLDER: telefone, e-mail, cidade e número do WhatsApp abaixo são fictícios; substituir pelos reais. -->
         <p class="cinfo"><span><b>tel</b>(00) 00000-0000</span><span><b>mail</b>contato@rapidcode.com.br</span><span><b>loc</b>Cidade, UF</span></p>
         <a class="btn" id="zap" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20pedir%20um%20diagn%C3%B3stico%20gratuito." target="_blank" rel="noopener">Chamar no WhatsApp</a>
@@ -88,7 +150,7 @@
   <p class="footer__copy mono">&copy; 2026 RapidCode. Todos os direitos reservados.</p>
 </footer>
 
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+<script src="js/data.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>
