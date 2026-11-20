@@ -118,8 +118,9 @@
       var ok = $('#ok');
       var f = form.elements;
       var v = function (n) { return (f[n] && f[n].value || '').trim(); };
-      var corpo = 'Nome: ' + v('nome') + '\nEmpresa: ' + v('empresa') + '\nE-mail: ' + v('email') +
-        '\nTelefone: ' + v('tel') + '\nAssunto: ' + v('assunto') + '\n\nMensagem:\n' + v('msg');
+      // quebras de linha em CRLF, como pede a RFC 6068 para mailto (alguns clientes ignoram só \n)
+      var corpo = ['Nome: ' + v('nome'), 'Empresa: ' + v('empresa'), 'E-mail: ' + v('email'),
+        'Telefone: ' + v('tel'), 'Assunto: ' + v('assunto'), '', 'Mensagem:', v('msg')].join('\r\n');
       var assunto = 'Contato pelo site - ' + v('assunto');
       ok.style.display = 'block';
       window.location.href = 'mailto:contato@rapidcode.com.br?subject=' + encodeURIComponent(assunto) +
