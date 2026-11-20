@@ -27,9 +27,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 <!-- SEO: definir cidade/região (areaServed e address no JSON-LD) -->
 <script type="application/ld+json">
@@ -135,7 +137,7 @@
         <p class="tag mono">$ rapidcode --fale-agora</p>
         <h2 class="card__title">Fale agora</h2>
         <p class="cinfo"><span><b>tel</b><a href="tel:+5511998861379">(11) 99886-1379</a></span><span><b>mail</b><a href="mailto:contato@rapidcode.com.br">contato@rapidcode.com.br</a></span><span><b>loc</b>Alto Tietê, SP · remoto em todo o Brasil</span></p>
-        <a class="btn" id="zap" href="https://wa.me/5511998861379?text=Ol%C3%A1!%20Quero%20pedir%20um%20diagn%C3%B3stico%20gratuito." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn" id="zap" href="https://wa.me/5511998861379?text=Ol%C3%A1!%20Quero%20pedir%20um%20diagn%C3%B3stico%20gratuito." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
       </aside>
     </div>
   </section>

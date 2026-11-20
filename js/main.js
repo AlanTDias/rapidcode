@@ -3,6 +3,12 @@
    cards de serviços, página de serviços detalhada e formulário de contato. */
 (function () {
   'use strict';
+  // Anti-clickjacking: o GitHub Pages não permite enviar X-Frame-Options/frame-ancestors,
+  // então o site se recusa a rodar dentro de um iframe de outro domínio.
+  if (window.top !== window.self) {
+    try { window.top.location.replace(window.self.location.href); } catch (e) { document.documentElement.style.display = 'none'; }
+    return;
+  }
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var D = window.RC || { servicos: [], produtos: [], planos: [] };
 
